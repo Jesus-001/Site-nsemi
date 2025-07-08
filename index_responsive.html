@@ -1,3 +1,56 @@
+<section id="hero">
+  <style>
+    #hero {
+      background: linear-gradient(135deg, #f39c12cc, #d35400cc), url('images/hero-bg.jpg') no-repeat center center/cover;
+      height: 300px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      animation: fadeIn 2s ease forwards;
+    }
+
+    #hero h1 {
+      font-size: 3rem;
+      margin: 0;
+      text-shadow: 2px 2px 5px #000;
+      color: white;
+    }
+
+    #hero p {
+      font-size: 1.2rem;
+      color: #eee;
+      margin-top: 10px;
+    }
+
+    #hero a {
+      margin-top: 20px;
+      padding: 12px 30px;
+      background: #fff;
+      color: #d35400;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 30px;
+      box-shadow: 0 4px 8px rgba(211, 84, 0, 0.4);
+      transition: background 0.3s ease;
+    }
+
+    #hero a:hover {
+      background: #f39c12;
+      color: #fff;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+
+  <h1>nsemi_boy_prefils</h1>
+  <p>Créateur d’univers musical et visuel</p>
+  <a href="#beats">Écouter mes sons</a>
+</section>
 
 <!DOCTYPE html>
 <html lang="fr">
